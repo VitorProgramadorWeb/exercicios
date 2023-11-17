@@ -1,0 +1,144 @@
+body {
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+/* calculadora */
+
+.calculadora {
+    width: 50vw;
+    height: 15vw;
+
+    margin-bottom: 20px;
+
+    background-color: rgb(110, 110, 110);
+    border-radius: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculadora form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+}
+
+.num {
+    border: 0;
+
+    width: 10vw;
+    height: 5vw;
+    
+    font-size: 4vw;
+    padding: 1vw;
+
+    text-wrap: nowrap;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button,
+.operadores {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.operadores {
+    width: 5vw;
+    height: 7vw;
+    
+    border: none;
+    background-color: rgb(172, 172, 172);
+
+    font-size: 4vw;
+    cursor: pointer;
+
+    text-align: center;
+}
+
+.enviar {
+    width: 10vw;
+    height: 7vw;
+
+    border: none;
+    margin: 0;
+    padding: 0;
+
+    font-size: 2vw;
+    background-color: rgb(102, 175, 209);
+
+    cursor: pointer;
+}
+
+/* form-user */
+
+.form-user {
+    border: 1px solid;
+    box-shadow: 8px 8px;
+
+    width: fit-content;
+
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.form-user:hover {
+    border: 1px solid blue;
+    box-shadow: 8px 8px blue;
+    color: blue;
+
+    width: fit-content;
+
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.form-user input{
+    border: 1px solid;
+}
+
+.form-user:hover input{
+    border: 1px solid blue;
+    color: blue;
+}
+
+.form-user .botao-retro:hover {
+    background-color: blue;
+    color: white;
+    border: 1px solid;
+}
+
+/* prox-50 */
+
+.prox-50 {
+    border: 1px solid;
+    box-shadow: 8px 8px;
+    
+    width: fit-content;
+    
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.prox-50 input{
+    border: 1px solid;
+}
+
+.botao-retro {
+    background-color: white;
+    padding: 5px;
+}
+.botao-retro:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid;
+    cursor: pointer;
+}
